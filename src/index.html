@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Tailwind</title>
+
+    <link rel="stylesheet" href="/dist/output.css">
+    <script src="https://kit.fontawesome.com/9882d00535.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-[#f4f4f4] back">
+    <header class="w-full h-16 fixed text-black flex items-center px-20  box-border justify-between navbar transition duration-500 z-[9999]">
+        <h1 class="text-lg font-bold">Bryan Berlandro</h1>
+        <nav>
+            <ul class="flex gap-20 text-md text-slate-600">
+                <li>
+                    <a href="" class="hover:text-black transition duration-500">Home</a>
+                </li>
+                <li>
+                    <a href="" class="hover:text-black transition duration-500">About Me</a>
+                </li>
+                <li>
+                    <a href="" class="hover:text-black transition duration-500">My Project</a>
+                </li>
+                <li>
+                    <a href="" class="hover:text-black transition duration-500">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home -->
+        <section class="w-full h-[100vh] pt-32 flex flex-col px-7 items-center gap-10">
+            <div id="greeting" class="text-center flex flex-col gap-3 items-center translate-y-44 greeting transition duration-1000 opacity-0">
+               <h1 class="text-3xl font-bold">Hello.. My Name Is Bryan</h1>
+               <p class="text-slate-600 w-[900px] text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, accusantium!Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ad numquam distinctio sed atque dolore voluptatum quos molestiae assumenda ut.</p>
+               <div class="flex gap-3">
+                   <button class="bg-tealprimary mt-5 shadow-md text-white py-3 px-9 rounded-md w-44 font-semibold tracking-wide hover:scale-95 transition duration-500 hover:shadow-xl">Contact Me</button> 
+                   <button class="bg-secondary mt-5 shadow-md text-white py-3 px-9 rounded-md w-44 font-semibold tracking-wide hover:scale-95 transition duration-500 hover:shadow-xl">Tutor</button> 
+               </div>
+            </div>
+            <div id="hero-greeting" class="relative w-[1000px] h-96 rounded-md shadow-xl translate-y-44 transition duration-1000 opacity-0">
+                <div class="relative w-[1000px] h-96 overflow-hidden rounded-md bg-gradient-to-r from-zinc-700 to-zinc-400">
+                    <img src="./img/bray-code-2.jpg" alt="" class="absolute object-cover -top-52 left-0 mix-blend-overlay">
+                </div>
+                <div id="utility-hero" class="w-[360px] h-24 space-y-1 px-4 p-4 translate-y-80 bg-white bg-opacity-80 backdrop-blur-lg shadow-md rounded-lg z-10 absolute -left-20 -top-10">
+                    <h1 class="font-semibold text-base">UI / UX DESIGNER</h1>
+                    <p class="text-sm leading-[17px] text-slate-600 w-72">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, placeat.</p>
+                    <button class="absolute right-0 bottom-2 w-max bg-tealprimary px-5 py-2 text-white rounded-s-2xl"> > </button>
+                </div>
+                <div class="bg-white bg-opacity-80 backdrop-blur-lg shadow-md w-64 h-32 flex flex-col px-4 py-2 rounded-lg top-36 -right-10 z-10 absolute overflow-hidden gap-2">
+                    <h1 class="font-semibold text-base">FRONT-END WEB DEVELOPER</h1>
+                    <p class="text-sm leading-[17px] text-slate-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, placeat.</p>
+                    <button class="absolute right-0 bottom-2 w-max bg-tealprimary px-5 py-2 text-white rounded-s-2xl"> > </button>
+                </div>
+                <div id="bubble" class=" scale-0 opacity-0 transition duration-[1500ms] absolute w-28 h-28 bg-white bg-opacity-80 backdrop-blur-lg flex justify-center items-center rounded-full -top-10 shadow-md right-10">
+                    <i class="fa-brands fa-react absolute object-cover text-8xl text-tealprimary"></i>
+                </div>
+                <div id="bubble" class=" scale-0 opacity-0 transition duration-1000 absolute w-20 h-20 bg-white bg-opacity-80 backdrop-blur-lg flex justify-center items-center rounded-full top-10 shadow-md -right-10">
+                    <i class="fa-brands fa-square-js absolute object-cover text-6xl text-tealprimary"></i>
+                </div>
+                <div id="bubble" class=" scale-0 opacity-0 transition duration-[1500ms] absolute w-20 h-20 bg-white bg-opacity-80 backdrop-blur-lg flex justify-center items-center rounded-full -top-5 shadow-md left-20">
+                    <i class="fa-brands fa-git absolute object-cover text-6xl text-tealprimary"></i>
+                </div>
+                <div id="bubble" class=" scale-0 opacity-0 transition duration-1000 absolute w-28 h-28 bg-white bg-opacity-80 backdrop-blur-lg flex justify-center items-center rounded-full top-10 shadow-md -left-10">
+                    <i class="fa-brands fa-figma absolute object-cover text-[90px] text-tealprimary"></i>
+                </div>
+            </div>
+        </section>
+        <!-- Home End -->
+
+        <!-- About Me -->
+        <section class="h-[100vh] w-full ">
+
+        </section>
+        <!-- About Me Start -->
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
